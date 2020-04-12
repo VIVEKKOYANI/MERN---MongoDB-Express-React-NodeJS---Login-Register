@@ -13,7 +13,7 @@ app.use(
     })
 )
 
-const mongoURI = 'mongodb://loclhost:27071/mernloginreg'
+const mongoURI = 'mongodb://loclhost:27017/mernloginreg'
 
 mongoose.connect(mongoURI, {useNewUrlParser: true})
 .then(() => console.log('mongoDb connected'))
